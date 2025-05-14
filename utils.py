@@ -11,7 +11,7 @@ def read_processing_times(filename):
 
 def calculate_makespan(sequence: List[int], processing_times: List[List[int]]) -> int:
     """
-    Calculate the makespan for a given job sequence (Corrected 2-array DP).
+    Calculate the makespan for a given job sequence.
     
     Args:
         sequence: List of job indices
@@ -47,7 +47,7 @@ def calculate_makespan(sequence: List[int], processing_times: List[List[int]]) -
 
 def calculate_makespan_2d(sequence: List[int], processing_times: List[List[int]]) -> int:
     """
-    Calculate the makespan using a 2D DP table (precursor to space optimization).
+    Calculate the makespan using a 2D DP table.
     
     Args:
         sequence: List of job indices (0-based).
